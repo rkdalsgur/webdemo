@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: black;
-  background: rgb(224, 167, 110);
+  background: white;
 }
 
 ul {
@@ -48,6 +48,7 @@ ul {
 .navbar ul li {
   margin-left: 30px;
   color: white;
+  font-
 }
 
 .nevbar .logo {
@@ -55,12 +56,13 @@ ul {
   font-weight: bold;
 }
 
-.nevbor .a {
+.nevbar a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
 }
+.nevbor 
 button {
   padding: 5px 10px;
   font-size: large;
