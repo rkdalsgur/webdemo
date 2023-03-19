@@ -1,5 +1,5 @@
-document.getElementById('time').innerHTML
-new Date().toLocaleString()
+document.getElementById('time').innerHTML = new Date().toLocaleString()
+
 function pink() {
   document.body.style.backgroundColor = 'pink'
 }
@@ -27,4 +27,8 @@ function showjavascript() {
   document.getElementById('fig').src = 'img/javascript.jpg'
   document.getElementById('desc').innerHTML =
     '<b>HTML은 구조적 웹문서를 작성하는데 사용하는 마크업 언어이다'
+}
+function hide() {
+  document.getElementById('fig').src = ''
+  document.getElementById('desc').innerHTML = ''
 }
